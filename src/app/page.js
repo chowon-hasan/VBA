@@ -30,12 +30,15 @@ const Home = () => {
           <div className="bannerMain flex items-center gap-5">
             <div className="lg:w-1/2">
               <div className="">
-                <h1 className="text-5xl font-bold">
-                  Calculateur <br /> Reprogrammation
+                <h1 className="text-[40px] font-bold">
+                  Calculateur <br />
+                  Vente - Reprogrammation
                 </h1>
-                <h2 className="text-4xl font-bold my-3">
-                  Boites automatiques Calculateurs Renault - Ford pour modèles
-                  suivants :
+                <h2 className="text-3xl font-bold my-3">
+                  Boites automatiques DC4
+                </h2>
+                <h2 className="text-3xl font-bold my-3">
+                  Renault - Ford pour vehicules :
                 </h2>
 
                 <div className="carBannerCont">
@@ -177,12 +180,12 @@ const Home = () => {
 
                 <div className="">
                   <Link href="/produits">
-                    <button className="buttons bg-[#FFA616] text-white capitalize py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-white">
-                      VERIFIER DISPONIBILITE
+                    <button className="buttons bg-[#FFA616] text-white capitalize py-3 px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
+                      DISPONIBILITE
                     </button>
                   </Link>
                   <Link href="/aide-en-ligne">
-                    <button className="buttons bg-[#418FFF] text-white capitalize ms-5 py-3 px-12 rounded-md hover:bg-[#B1D8FF] hover:text-white">
+                    <button className="buttons bg-[#418FFF] text-white capitalize ms-3 py-3 px-[38px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
                       AIDE EN LIGNE
                     </button>
                   </Link>

@@ -205,11 +205,11 @@ const MiseEnLigne = () => {
   };
 
   return (
-    <section className="py-[80px] checker">
+    <section className="py-[60px] checker">
       <div className="md:px-24 mx-auto">
         .
-        <h2 className="md:w-[450px] mx-auto mt-8  p-4 rounded-2xl bg-[#FFA616] text-white text-3xl font-semibold  text-center">
-          - Aide en ligne - <br /> Boite de vitesse à contrôler
+        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-2xl bg-[#FFA616] text-white text-3xl font-semibold  text-center">
+          - Aide en ligne - <br /> Boite de vitesse <br /> à contrôler
         </h2>
         {/* Conteneur principal */}
         <div className="relative">
@@ -220,7 +220,7 @@ const MiseEnLigne = () => {
 
           {/* Partie gauche - Texte initial */}
           <div className="searchCont md:flex justify-between">
-            <div className="md:w-[500px] md:h-[470px] text-[16px] border-2 border-orangevba bg-white p-4 mt-8 mb-8 rounded-lg shadow-xl text-black ">
+            <div className="md:w-[420px] md:h-[510px] text-[16px] border-2 border-orangevba bg-white p-4 mt-8 mb-8 rounded-lg shadow-xl text-black ">
               <p className="mb-6 ">
                 Les boites automatiques (modèles DC4 et 6DCT250) couramment
                 installées dans les véhicules
@@ -266,10 +266,10 @@ const MiseEnLigne = () => {
             </div>
 
             {/* Partie droite - Barre de recherche et résultats */}
-            <div className="md:w-[500px] mt-8">
+            <div className="md:w-[420px] mt-8">
               {/* Barre de recherche */}
-              <div className="md:w-[500px]">
-                <p className="bg-white/95 items-center text-[16px]  rounded border border-1 border-[#FFA616]  mx-auto p-2 mb-3">
+              <div className="md:w-[420px]">
+                <p className="bg-[#FFA616] text-white items-center text-[16px] border border-1 border-[#FFA616]  mx-auto p-2 mb-3">
                   Rechercher code erreur ou description:{" "}
                 </p>
                 <div className="">
@@ -294,7 +294,7 @@ const MiseEnLigne = () => {
 
               {/* Résultats de la recherche */}
               {searchTerm.length >= 3 && (
-                <div className="bg-white mt-5 p-4 rounded-lg shadow-xl  text-lg overflow-y-auto max-h-[calc(100vh-256px)]">
+                <div className="bg-white mt-5 p-4 rounded-lg shadow-xl  text-lg overflow-y-auto max-h-[370px]">
                   {filteredCodes.length > 0 ? (
                     <div>
                       {/* Affichage des codes filtrés */}

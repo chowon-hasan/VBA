@@ -10,11 +10,11 @@ export default function Produits() {
           <main className="flex  flex-col lg:p-8 md:p-4 p-2 z-20 relative">
             <div className="lg:w-[1150px] mx-auto">
               <div className="product bg-[#FFA616] py-4 text-center rounded-md">
-                <h2 className="text-3xl font-bold capitalize text-white">
-                  Trouvez ici votre
+                <h2 className="text-3xl font-bold text-white">
+                  Trouvez Ici votre
                 </h2>
-                <h1 className="text-5xl font-bold  my-3 text-white">
-                  Calculateur boite automatique
+                <h1 className="text-[40px] font-bold  my-3 text-white">
+                  Calculateur de boite automatique
                 </h1>
                 <h2 className="text-3xl font-bold text-white">
                   Renault - Ford

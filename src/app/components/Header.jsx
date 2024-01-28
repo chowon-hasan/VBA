@@ -52,7 +52,7 @@ export default function Header() {
     <section className="bg-white border border-b-[3px] border-[#c9c9c9] fixed w-full z-50">
       <div className="container mx-auto">
         <nav className="">
-          <div className="flex flex-wrap items-center justify-between mx-auto pt-1 p-3">
+          <div className="flex flex-wrap items-center justify-between mx-auto p-3">
             <Link href="/" className="">
               <div className="w-[290px]">
                 <Image
@@ -114,18 +114,23 @@ export default function Header() {
 
                   {prestationDropdown && (
                     <div className="absolute mt-2  bg-[#FFA616]  rounded-md shadow-lg dark:bg-[#FFA616] dark:border-gray-700 dark:text-white z-40">
-                      <Link
-                        href="/prestations/programmation"
-                        className="hover:text-black block p-4 py-2"
-                      >
-                        Programmation
-                      </Link>
-                      <Link
-                        href="/prestations/installation"
-                        className="hover:text-black block p-4 py-2"
-                      >
-                        Installation
-                      </Link>
+                      <div className="hover:bg-[#b1d8ffef] ">
+                        {" "}
+                        <Link
+                          href="/prestations/programmation"
+                          className="hover:text-white block p-4 py-2"
+                        >
+                          Programmation
+                        </Link>
+                      </div>
+                      <div className="hover:bg-[#b1d8ffef]">
+                        <Link
+                          href="/prestations/installation"
+                          className="hover:text-white block p-4 py-2"
+                        >
+                          Installation
+                        </Link>
+                      </div>
                     </div>
                   )}
                 </div>
