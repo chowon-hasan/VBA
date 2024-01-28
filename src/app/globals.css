@@ -162,4 +162,10 @@ nextjs-portal {
   .capture {
     margin-top: 15px;
   }
+  .textCenter {
+    text-align: center;
+  }
+  .installForm {
+    width: 100%;
+  }
 }

@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <footer className="myFooter bg-[#ffffff] border-t-[3px] border-[#c9c9c9] text-black py-4 ">
           <div className="flex flex-wrap justify-center gap-4">
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4  mb-4">
+            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4  mb-4 textCenter">
               <a href="https://maps.app.goo.gl/p7MQH6a2DYB64of59">
                 <span className="hover:text-[#FFA616] text-[15px]">
                   Calculateur Renault Paris (75)
@@ -176,7 +176,7 @@ const Footer = () => {
             </div>
             {/*  */}
             <div className="w-full sm:w-1/2  md:w-1/3 lg:w-1/4  mb-4 ">
-              <div className="lg:ms-[30px]">
+              <div className="lg:ms-[30px] textCenter">
                 <Link href="https://maps.app.goo.gl/p7MQH6a2DYB64of59">
                   <span className="hover:text-[#FFA616] text-[15px]">
                     Calculateur Renault Nantes (44)

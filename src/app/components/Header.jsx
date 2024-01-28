@@ -49,7 +49,7 @@ export default function Header() {
     setPrestationDropdown(false);
   }, [router.pathname]);
   return (
-    <section className="bg-white border border-b-[3px] border-[#c9c9c9] fixed w-full z-50">
+    <section className="bg-white/90 border border-b-[3px] border-[#c9c9c9] fixed w-full z-50">
       <div className="container mx-auto">
         <nav className="">
           <div className="flex flex-wrap items-center justify-between mx-auto p-3">

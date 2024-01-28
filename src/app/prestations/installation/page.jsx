@@ -91,7 +91,7 @@ const AutreFormulaire = () => {
             </div>
             <form
               onSubmit={handleSubmit}
-              className="h-full  z-20 shadow-xl  mb-10 p-4 bg-white/95 border-2 border-orangevba rounded-2xl"
+              className="h-full installForm z-20 shadow-xl  mb-10 p-4 bg-white/95 border-2 border-orangevba rounded-2xl"
             >
               <h1 className="sr-only">
                 Montage démontage installation calculateur boîte automatique
